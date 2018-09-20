@@ -1,1 +1,87 @@
-style.css
+*{
+	box-sizing: border-box;
+}
+
+.article-title{
+	color: #1e88e5;
+}
+
+.banner-container{
+	background: #e0e0e0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.banner-center{
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+}
+
+.banner-input{
+	border: 1px solid grey;
+	border-radius: 3px;
+	padding: 5px
+
+}
+
+.banner-btn{
+	background: orangered;
+	color: white;
+	padding: 5px 15px;
+	border: none;
+	border-radius: 3px;
+}
+
+.slider-container{
+	background: #f5f5f5;
+	width: 25%;
+	padding: 0px 10px 10px 10px;
+	position: fixed;
+	bottom: -300px;
+
+	opacity: 0;
+	  -webkit-transition: opacity 0.5s ease-out, bottom 0.5s ease-out;
+	  -moz-transition: opacity 0.5s ease-out, bottom 0.5s ease-out;
+	  -o-transition: opacity 0.5s ease-out, bottom 0.5s ease-out;
+	  transition: opacity 0.5s ease-out, bottom 0.5s ease-out;
+}
+
+.show{
+	opacity: 1;
+	bottom: 0;
+}
+
+.slider-title{
+	font-size: 25px;
+}
+
+.slider-text{
+	margin: 15px 0;
+}
+
+.slider-input{
+	width: 100%;
+	padding: 9px;
+	border: 1px solid grey;
+	border-radius: 2px;
+	margin-bottom: 10px;
+}
+
+.slider-btn{
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+	color: white;
+	background: blue;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 10px;
+}
+
+.slider-close-btn{
+	font-size: 24px;
+	text-align: right;
+}
