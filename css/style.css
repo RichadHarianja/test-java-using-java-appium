@@ -62,9 +62,9 @@
 	  transition: opacity 0.5s ease-out, bottom 0.5s ease-out;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 415px){
 	.slider-container{
-		width: 450px;
+		width: 415px;
 	}
 }
 
@@ -79,10 +79,9 @@
 }
 
 .slider-text{
-	margin: 15px 0;
+	margin: 15px 0;	
 	font-family: Arial;
-	font-size: 13px;
-	padding-right: 30px;
+	font-size: 15px;	
 
 }
 
