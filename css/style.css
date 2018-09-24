@@ -16,20 +16,17 @@
 
 .banner-center{
 	margin: auto;
-	width: 100%;
+	width: 80%;
 	padding: 10px;
-}
 
-.banner-center {
 	text-align: center;
 	font-family: Arial;
-	font-size: 14px;
-	border: 1px solid;
+	font-size: 13px;
 }
 
-@media screen and (max-width:500%) {
+@media screen and (max-width:40%) {
     .banner-center {
-        width:500%;
+        width:40%;
     }
 }
 
