@@ -62,9 +62,9 @@
 	  transition: opacity 0.5s ease-out, bottom 0.5s ease-out;
 }
 
-@media screen and (max-width: 415px){
+@media screen and (max-width: 400px){
 	.slider-container{
-		width: 415px;
+		width:400px;
 	}
 }
 
