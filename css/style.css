@@ -16,7 +16,7 @@
 
 .banner-center{
 	margin: auto;
-	width: 1024px;
+	width: 100%;
 	padding: 10px;
 }
 
@@ -24,11 +24,12 @@
 	text-align: center;
 	font-family: Arial;
 	font-size: 14px;
+	border: 1px solid;
 }
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:500%) {
     .banner-center {
-        width:420px;
+        width:500%;
     }
 }
 
