@@ -1,4 +1,5 @@
 var slider = document.getElementById('slider');
+var close_counter=0;
 
 function getDocHeight() {
     var D = document;
@@ -21,13 +22,17 @@ function amountscrolled(){
 	var scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop
 	var pctScrolled = Math.floor(scrollTop/trackLength * 100) // gets percentage scrolled (ie: 80 or NaN if tracklength == 0)
 	
-	if(pctScrolled>=50){
+	if(pctScrolled>=50 && (close_counter==0 || close_counter==2)){
 		slider.classList.add('show');
 	}
 }
 
 function close_slider() {
 	slider.classList.remove('show');
+	close_counter+=1;
+	setTimeout(function(){
+		close_counter+=1;
+	}, 600000);
 }
 
 getmeasurements()
