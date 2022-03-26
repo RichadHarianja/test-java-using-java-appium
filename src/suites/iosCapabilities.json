@@ -1,0 +1,7 @@
+{
+  "platformName": "iOS",
+  "platformVersion": "15.4",
+  "deviceName": "iPhone 8 Plus",
+  "automationName": "XCUITest",
+  "app": "ExpoShop.app"
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Add Address UI Appium Tests" verbose="10">
+    <!-- E2E Testsuite parameter-->
+    <parameter name="os" value="ios"/>
+    <parameter name="appium-url" value="http://127.0.0.1:4723/wd/hub"/>
+    <parameter name="ios-capabilities" value="iosCapabilities.json"/>
+
+    <test name="Add New Address workflow" verbose="10">
+        <classes>
+            <class name="com.sample.appium.step.CheckoutStep"/>
+        </classes>
+    </test>
+
+</suite>
